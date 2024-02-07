@@ -5,7 +5,7 @@ Comparative analysis of Diabetes Prediction using different Machine Learning Alg
 
 **AIM OF THE PROJECT**
 
-        The aim of this project is to develop a system which can perform early prediction of diabetes for a patient with a higher accuracy by combining the results of different machine learning techniques.
+    The aim of this project is to develop a system which can perform early prediction of diabetes for a patient with a higher accuracy by combining the results of different machine learning techniques.
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -18,7 +18,7 @@ Comparative analysis of Diabetes Prediction using different Machine Learning Alg
 
 **ALGORITHMS USED**
 
-    •	**Support Vector Machine:**
+    • **Support Vector Machine:**
 
         A support vector machine builds a hyper-plane or set of hyperplanes in a high or limitless dimensional space, which can be utilized for classification, regression or different undertakings. Instinctively, a great separation is accomplished by the hyperplane that has the biggest separation to the closest training point of any class (supposed as functional margin), since all in all the bigger the margin the lower the generalisation error of the classifier.
 
@@ -35,7 +35,7 @@ Comparative analysis of Diabetes Prediction using different Machine Learning Alg
         • Select the class which has the high margin. 
         		Margin = distance to positive point + Distance to negative point.
 
-    •	**Decision Tree:**
+    • **Decision Tree:**
 
         A decision tree (DT) is a supervised learning technique that is mostly used for classification tasks and is also helpful in discovering relevant features and patterns in large databases, thus serving as a powerful means of discrimination and predictive modeling [19]. Each node in a Decision tree, or Decision node and Leaf node, consists of a test for an attribute, which creates one of the two branches in the tree that descends from that node.
 
@@ -46,7 +46,8 @@ Comparative analysis of Diabetes Prediction using different Machine Learning Alg
         • Repeat step 2 to form a subtree using the feature which is not used in above node.
 
 
-    •	**Random Forest Classifier:**
+    • **Random Forest Classifier:**
+
         It is an ensemble learning method that uses multiple decision trees, It is type of ensemble learning method and also used for classification and regression tasks. The accuracy it gives is grater then compared to other models. This method can easily handle large datasets. Random Forest is developed by Leo Bremen. It is popular ensemble Learning Method. Random Forest Improve Performance of Decision Tree by reducing variance. It operates by constructing a multitude of decision trees at training time and outputs the class that is the mode of the classes or classification or mean prediction (regression) of the individual trees.
 
         *Algorithm-*
