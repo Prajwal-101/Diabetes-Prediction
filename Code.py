@@ -60,7 +60,7 @@ from imblearn.over_sampling import RandomOverSampler
 
 """**READING THE FILE**"""
 
-df=pd.read_csv('/content/diabetes (1).csv')
+df=pd.read_csv('diabetes (1).csv')
 
 df.head()
 
