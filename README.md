@@ -44,10 +44,11 @@ Linear Kernels work perfectly on linearly separable data, however when data is l
 used which projects the data into an n-dimensional higher space and computes all the calculations there.
 
 _Algorithm-_
-• Select the hyper plane which divides the class better.
-• To find the better hyper plane you have to calculate the distance between the planes and the data which is called Margin.
-• If the distance between the classes is low then the chance of miss conception is high and vice versa. So we need to
-• Select the class which has the high margin. 
+
+• Select the hyper plane which divides the class better.<br>
+• To find the better hyper plane you have to calculate the distance between the planes and the data which is called Margin.<br>
+• If the distance between the classes is low then the chance of miss conception is high and vice versa. So we need to<br>
+• Select the class which has the high margin. <br>
 
         		Margin = distance to positive point + Distance to negative point.
 
@@ -59,10 +60,11 @@ predictive modeling [19]. Each node in a Decision tree, or Decision node and Lea
 which creates one of the two branches in the tree that descends from that node.
 
 _Algorithm-_
-• Construct tree with nodes as input feature.
-• Select feature to predict the output from input feature whose information gain is highest.
-• The highest information gain is calculated for each attribute in each node of tree.
-• Repeat step 2 to form a subtree using the feature which is not used in above node.
+
+• Construct tree with nodes as input feature.<br>
+• Select feature to predict the output from input feature whose information gain is highest.<br>
+• The highest information gain is calculated for each attribute in each node of tree.<br>
+• Repeat step 2 to form a subtree using the feature which is not used in above node.<br>
 
 
 **Random Forest Classifier:**
@@ -74,10 +76,11 @@ Performance of Decision Tree by reducing variance. It operates by constructing a
 and outputs the class that is the mode of the classes or classification or mean prediction (regression) of the individual trees.
 
 _Algorithm-_
-• The first step is to select the “R” features from the total features “m” where R<<M.
-• Among the “R” features, the node using the best split point.
-• Split the node into sub nodes using the best split.
-• Repeat a to c steps until ”l” number of nodes has been reached.
-• Built forest by repeating steps a to d for “a” number of times to create “n” number of trees.
+
+• The first step is to select the “R” features from the total features “m” where R<<M.<br>
+• Among the “R” features, the node using the best split point.<br>
+• Split the node into sub nodes using the best split.<br>
+• Repeat a to c steps until ”l” number of nodes has been reached.<br>
+• Built forest by repeating steps a to d for “a” number of times to create “n” number of trees.<br>
 
 
